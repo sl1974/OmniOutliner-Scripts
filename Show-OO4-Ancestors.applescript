@@ -1,6 +1,8 @@
 -- Show-OO4-Ancestors.scpt
 --
 -- 2014-07-07 first draft
+--
+-- Sven Luetkemeier, sven@luetkemeier.net
 
 tell application id "com.omnigroup.omnioutliner4"
 	tell front document
