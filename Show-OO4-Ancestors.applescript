@@ -12,7 +12,7 @@ tell application id "com.omnigroup.omnioutliner4"
 		repeat with i in ancestors_list
 			set ancestors_text to name of i & " Ð " & ancestors_text
 		end repeat
-		display dialog "You are here:
+		display alert "You are here:
 " & ancestors_text & name of selected_row
 	end tell
 end tell
