@@ -1,10 +1,11 @@
 -- Show-OO4-Ancestors.scpt
 --
 -- 2014-07-07 first draft
+-- 2014-07-12 changed the script to target 'app "OmniOutliner'" 
 --
 -- Sven Luetkemeier, sven@luetkemeier.net
 
-tell application id "com.omnigroup.omnioutliner4"
+tell application "OmniOutliner"
 	tell front document
 		set selected_row to (get item 1 of selected rows)
 		set ancestors_list to ancestors of selected_row
